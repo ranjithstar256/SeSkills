@@ -9,7 +9,6 @@ import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -48,7 +47,7 @@ public class LevelViewFragment extends Fragment {
     }
 
     private void loadListView(View view) {
-        ListView listView = (ListView) view.findViewById(R.id.list_view);
+        ListView listView = view.findViewById(R.id.list_view);
         arrayList = new ArrayList<>();
 
         arrayList.add("Architect");
@@ -84,7 +83,7 @@ public class LevelViewFragment extends Fragment {
                     }
                     Toast.makeText(context, "Selected Rows\n" + stringBuilder.toString(), Toast.LENGTH_SHORT).show();
 
-                    Intent homeintent = new Intent(getActivity(), UserDataActivity.class);
+                    Intent homeintent = new Intent(getActivity(), NavigationActivity.class);
                     startActivity(homeintent);
                 }
 

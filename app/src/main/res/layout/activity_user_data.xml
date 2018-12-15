@@ -6,12 +6,15 @@
     android:layout_gravity="center"
     android:elevation="10dp"
     android:padding="5dp"
+
+
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:textColor="@color/green_300"
         android:text="Please enter below details to get started"
         android:layout_margin="5dp"
         android:padding="5dp"
@@ -38,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:text="Name"
                 android:layout_margin="5dp"
-                android:textColor="@color/headings"
+                android:textColor="@color/blue_grey_400"
                 android:textSize="13sp" />
 
             <EditText
@@ -67,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:text="Email"
                 android:layout_margin="5dp"
-                android:textColor="@color/headings"
+                android:textColor="@color/blue_grey_400"
                 android:textSize="13sp" />
 
             <EditText
@@ -96,7 +99,7 @@
                 android:layout_height="wrap_content"
                 android:text="City"
                 android:layout_margin="5dp"
-                android:textColor="@color/headings"
+                android:textColor="@color/blue_grey_400"
                 android:textSize="13sp" />
 
             <EditText
@@ -126,7 +129,7 @@
                 android:layout_height="wrap_content"
                 android:text="Phone"
                 android:layout_margin="5dp"
-                android:textColor="@color/headings"
+                android:textColor="@color/blue_grey_400"
                 android:textSize="13sp" />
 
             <EditText

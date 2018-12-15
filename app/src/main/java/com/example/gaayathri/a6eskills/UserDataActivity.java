@@ -1,8 +1,8 @@
 package com.example.gaayathri.a6eskills;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
@@ -18,7 +18,7 @@ public class UserDataActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent homeintent = new Intent(UserDataActivity.this, NavigationActivity.class);
+                Intent homeintent = new Intent(UserDataActivity.this, HomeActivity.class);
                 startActivity(homeintent);
             }
         });
