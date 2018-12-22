@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="350dp"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
     android:elevation="10dp"
+    android:background="@color/dark_slate_grey"
+    android:gravity="center"
+
     android:padding="5dp"
 
 
@@ -18,7 +21,7 @@
         android:text="Please enter below details to get started"
         android:layout_margin="5dp"
         android:padding="5dp"
-        android:textSize="15sp"/>
+        android:textSize="@dimen/txt_heading" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,7 +45,9 @@
                 android:text="Name"
                 android:layout_margin="5dp"
                 android:textColor="@color/blue_grey_400"
-                android:textSize="13sp" />
+
+                android:textSize="@dimen/tit"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/et_name"
@@ -53,8 +58,8 @@
                 android:background="@drawable/text_view_border"
                 android:padding="10dp"
                 android:layout_margin="5dp"
-                android:textColor="#000000"
-                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tit"
                 android:textAlignment="center"/>
 
         </LinearLayout>
@@ -71,7 +76,9 @@
                 android:text="Email"
                 android:layout_margin="5dp"
                 android:textColor="@color/blue_grey_400"
-                android:textSize="13sp" />
+                android:textSize="@dimen/tit"
+
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/et_email"
@@ -79,9 +86,10 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:inputType="textEmailAddress"
-                android:textColor="#000000"
+                android:textColor="@color/white"
+
                 android:layout_margin="5dp"
-                android:textSize="18sp"
+                android:textSize="@dimen/tit"
                 android:background="@drawable/text_view_border"
                 android:padding="10dp"
                 android:textAlignment="center"/>
@@ -100,7 +108,9 @@
                 android:text="City"
                 android:layout_margin="5dp"
                 android:textColor="@color/blue_grey_400"
-                android:textSize="13sp" />
+                android:textSize="@dimen/tit"
+
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/et_city"
@@ -109,8 +119,9 @@
                 android:fontFamily="sans-serif-light"
                 android:inputType="text"
                 android:text=""
-                android:textColor="#000000"
-                android:textSize="18sp"
+                android:textColor="@color/white"
+
+                android:textSize="@dimen/tit"
                 android:background="@drawable/text_view_border"
                 android:padding="10dp"
                 android:layout_margin="5dp"
@@ -130,7 +141,9 @@
                 android:text="Phone"
                 android:layout_margin="5dp"
                 android:textColor="@color/blue_grey_400"
-                android:textSize="13sp" />
+                android:textSize="@dimen/tit"
+
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/et_phone"
@@ -139,8 +152,9 @@
                 android:fontFamily="sans-serif-light"
                 android:inputType="number"
                 android:text=""
-                android:textColor="#000000"
-                android:textSize="18sp"
+                android:textColor="@color/white"
+
+                android:textSize="@dimen/tit"
                 android:background="@drawable/text_view_border"
                 android:padding="10dp"
                 android:layout_margin="5dp"
@@ -152,8 +166,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Same number for WhatsApp"
+            android:textAlignment="textStart"
             android:layout_margin="5dp"
-            android:textAlignment="center"/>
+            android:textColor="@color/blue_grey_50"
+            android:textSize="15sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -176,9 +192,11 @@
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
-                android:background="@drawable/button_background"
+
                 android:text="Done"
-                android:textColor="@android:color/white" />
+                android:background="@drawable/btn_rounded_green_300"
+
+                android:textColor="@color/blue_grey_900" />
         </LinearLayout>
 
     </LinearLayout>

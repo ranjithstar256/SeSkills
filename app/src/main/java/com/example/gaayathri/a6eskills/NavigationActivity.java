@@ -20,7 +20,13 @@ public class NavigationActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
         Toolbar toolbar = findViewById(R.id.toolbar);
+        // setSupportActionBar(toolbar);
+
+        //    Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
+        //   toolbar.setTitle(R.string.app_name);
+        // toolbar.setTitleTextColor(getResources().getColor(R.color.dark_slate_grey));
         setSupportActionBar(toolbar);
+
 
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.frm,new HomeFragment()).addToBackStack(null).commit();

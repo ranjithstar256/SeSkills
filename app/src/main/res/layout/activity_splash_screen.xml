@@ -6,7 +6,7 @@
 
     android:layout_height="match_parent"
 
-    android:background="@color/blue_grey_900"
+    android:background="@color/dark_slate_grey"
 
     android:orientation="vertical"
 
@@ -34,20 +34,15 @@
 
             android:orientation="vertical"
 
-            android:padding="15dp">
+            android:padding="10dp">
 
 
             <ImageView
 
-                android:layout_width="100dp"
-
-                android:layout_height="100dp"
-
+                android:layout_width="200dp"
+                android:layout_height="200dp"
                 android:layout_gravity="center"
-
-                android:src="@drawable/logo"
-
-                />
+                android:src="@drawable/logose" />
 
 
             <View
@@ -64,6 +59,7 @@
                 android:layout_height="wrap_content"
 
                 android:text="Username"
+                android:textSize="18sp"
 
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
 
@@ -107,6 +103,7 @@
                 android:layout_height="wrap_content"
 
                 android:text="Password"
+                android:textSize="18sp"
 
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
 
@@ -155,6 +152,7 @@
                 android:layout_marginTop="5dp"
 
                 android:clickable="true"
+                android:textSize="16sp"
 
                 android:text="Forgot Password?"
 
@@ -184,11 +182,12 @@
 
                 android:layout_marginRight="-4dp"
 
-                android:background="@drawable/btn_rounded_green_300"
+
                 android:text="Login"
 
                 android:textAllCaps="false"
 
+                android:background="@drawable/btn_rounded_green_300"
                 android:textColor="@color/blue_grey_900" />
 
 
@@ -221,6 +220,7 @@
                     android:layout_height="wrap_content"
 
                     android:text="New user? "
+                    android:textSize="18sp"
 
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
 
@@ -240,6 +240,7 @@
                     android:text="Sign Up"
 
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                    android:textSize="16sp"
 
                     android:textColor="@color/green_300"
 

@@ -5,20 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".NavigationActivity"
-    android:background="@color/dark_slate_grey"
-
-    tools:showIn="@layout/app_bar_navigation"
-    android:layout_gravity="center">
-
-    <FrameLayout
-
-        android:id="@+id/frm"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
-
-    </FrameLayout>
+    tools:context=".Main2Activity"
+    tools:showIn="@layout/activity_main2">
 
 </android.support.constraint.ConstraintLayout>

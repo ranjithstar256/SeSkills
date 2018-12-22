@@ -3,7 +3,7 @@
     <color name="colorPrimary">#66bb6a</color>
 
     <color name="colorPrimaryDark">#fc850f</color>
-    <color name="colorAccent">#fc850f</color>
+    <color name="colorAccent">#d1e441</color>
 
     <color name="headings">#3797CF</color>
 
@@ -12,7 +12,8 @@
 
     <color name="red">#FF0000</color>
     <color name="litegrey">	#DCDCDC</color>
-    <color name="grey">	#696969</color>
+    <color name="grey">#d1e441</color>
+    <color name="greyy">#696969</color>
     <color name="darkgrey">#4b4a4a</color>
 
 
@@ -34,14 +35,17 @@
     <color name="green_500">#4caf50</color>
 
     <color name="blue_600">#1e88e5</color>
-    <color name="green_300">#81c784</color>
+    <color name="green_300">#d1e441</color>
+    <color name="green_3000">#81c784</color>
     <color name="blue_grey_300">#90a4ae</color>
 
-    <color name="blue_grey_400">#78909c</color>
+    <color name="blue_grey_400">#d1e441</color>
+    <color name="blue_grey_4000">#78909c</color>
 
     <color name="blue_grey_50">#eceff1</color>
 
-    <color name="blue_grey_500">#607d8b</color>
+    <color name="blue_grey_500">#d1e441</color>
+    <color name="blue_grey_5000">#607d8b</color>
 
     <color name="blue_grey_600">#546e7a</color>
 
@@ -50,4 +54,7 @@
     <color name="blue_grey_800">#37474f</color>
 
     <color name="blue_grey_900">#263238</color>
+
+    <color name="green_yellow">#d1e441</color>
+    <color name="dark_slate_grey">#395849</color>
 </resources>
